@@ -1,0 +1,25 @@
+<!--type = number 숫자 입력하기-->
+<b>주문갯수 : </b>
+<input type="number" min="1" max="5" value="1">
+<!--type = "range" 슬라이드 막대로 숫자 지정-->
+<hr>
+<b>주문갯수 : </b>
+<input type="range" min="1" max="5" value="1">개
+<!--type = "color" 색상 선택 상자 표시-->
+<hr>
+<fieldset>
+    <legend>과 티셔츠 설문</legend>
+    <p>올해 과 티를 만들려고 합니다. 원하는 색상을 선택하세요.</p>
+    <label>선호색상<input type="color"value="#00ff00"></label>
+</fieldset>
+
+<fieldset>
+    <legend>날짜 표시</legend>
+    <label><input type="date"id="end"></label>
+</fieldset>
+
+<fieldset>
+    <legend>시간 지정</legend>
+    <label>시작시간<input type="time" value=""09:00" id="start"></label>
+    <label>종료시간<input type="time" value=""18:00" id="end"></label>
+</fieldset>

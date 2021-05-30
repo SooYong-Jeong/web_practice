@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head><title>9강 과제</title></head>
+    <body>
+        <h3>시간표 만들기</h3>
+        <fieldset>
+            <legend>과목 정보</legend>
+            <p><b>과목이름 : </b>
+            <input type="text" id="name"></p>
+            <p><b>담당교수 : </b>
+            <input type="text" id="professor"></p>
+            <p><b>강의실 : </b>
+            <input type="text" id="class"></p>
+        </fieldset>
+        <hr>
+        <b>학점 : </b>
+        <input type="range" min="1" max="5" value="1">학점
+        <hr>
+        <fieldset>
+            <legend>색 선택</legend>
+            <p>시간표에 표시 될 색을 선택하세요.</p>
+            <label><input type="color"value="#000000"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>날짜 표시</legend>
+            <input type="checkbox" value="1">월요일
+            <input type="checkbox" value="2">화요일
+            <input type="checkbox" value="3">수요일
+            <input type="checkbox" value="4">목요일
+            <input type="checkbox" value="5">금요일
+            <input type="checkbox" value="6">토요일
+            <input type="checkbox" value="7">일요일
+        </fieldset>
+
+        <fieldset>
+            <legend>시간 지정</legend>
+            <label>시작시간<input type="time" value=""09:00" id="start"></label>
+            <label>종료시간<input type="time" value=""18:00" id="end"></label>
+        </fieldset>
+    </body>
+</html>
